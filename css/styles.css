@@ -1,0 +1,57 @@
+div{
+    border: 2px solid #D6001C;
+    margin: 2px;
+    border-radius:5px;
+}  
+#mid{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin:2px;
+padding:2px;
+}
+.img{
+    border: 2px solid black;  
+    border-radius: 4px;
+}
+#länkar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#email{
+text-align: center;
+}
+#jul{
+text-align: center;
+font-family: Daboss;
+padding-top: 15px;
+}
+#top{
+    background-image: url(../img/snow_winter_trees.jpg);
+    background-size:cover;
+    height: 300px;
+}
+@font-face {
+font-family: Daboss;
+src: url(Daboss-413p.ttf);
+}
+
+.sid-träd{
+    max-width: 40%;
+    min-width: 20%;
+}
+.träd-bild{
+    max-width:100%;
+}
+.topimg{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 7px;
+}
+.länk-bilder{
+    max-height: 40px;
+}
